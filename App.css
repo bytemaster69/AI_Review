@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.star {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.star.selected {
+  color: gold;
+}
+
+.keyword {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: #9a1b1b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.keyword.selected {
+  background-color: #792532;
+}
